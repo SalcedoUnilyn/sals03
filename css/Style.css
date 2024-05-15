@@ -1,0 +1,221 @@
+:root {
+
+    --bg1: hsl(0, 78%, 5%);
+    --bg2: rgb(44, 42, 42,);
+    --body: rgb(95,86, 86);
+    --brand: #f2b03b;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+}
+
+body{
+    background-color: var(--bg1);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#banner{
+
+    background: linear-gradient(to right, hsla(0, 100%, 99%, 0), #fffffe00),
+     url(https://img.freepik.com/free-photo/selective-focus-shot-beautiful-butterfly-sitting-pink-daisy-flower_181624-36156.jpg?t=st=1710731052~exp=1710734652~hmac=beca0c90e212e9e70ed5af44a5337868c9897ce84a960f494900139bd1bfa5dd&w=740);
+    height: 100vh;
+    background-size: cover;
+    filter: blur();
+}
+section
+    {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+/* */
+.navbar {
+    background: linear-gradient(to bottom, hsla(0, 10%, 86%, 0.027), rgba(255, 254, 252, 0));
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand) !important;
+}
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand{
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+#about{
+    background-color: var(--bg1);
+}
+
+#about h6{
+    color: var(--brand);
+}
+.icon-box-img{
+    width: 40%;
+}
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.card:hover{
+    background-color: var(--white);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+ 
+ #cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* parallax effect */
+    background-attachment: fixed;
+    /* parallax effect / to remove to effect set to normal*/
+    background-image: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 0.315));
+    background-image: linear-gradient(to right, hsla(0, 100%, 99%, 0), #fffffe00),
+    url(https://img.freepik.com/free-photo/selective-focus-shot-beautiful-butterfly-sitting-pink-daisy-flower_181624-36156.jpg?t=st=1710731052~exp=1710734652~hmac=beca0c90e212e9e70ed5af44a5337868c9897ce84a960f494900139bd1bfa5dd&w=740);
+   height: 100vh;
+   background-size: cover;
+   filter: blur();
+   min-height: 70vh;
+
+ }
+
+
+ #reviews {
+    background-color: var(--bg2);
+
+
+}
+.faq {
+    background-color: aqua;
+}
+    
+
+
+.Testimonials {
+    background-color: rgba(225, 240, 239, 0.918);
+    padding: 20px;
+}
+
+.Testimonials img {
+    width: 10%;
+    border-radius: 10%;
+    height: 10%;
+}
+
+#reviews a {
+    color: var(--brand);
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.accordion-button {
+    background-color: lightslategray;
+    border: none;
+    border-bottom: 1px solid lightslategray;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.3s ,color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: whitesmoke;
+}
+
+.faq-answer p {
+    margin-bottom: 0;
+}
+.accordion-button:fucos {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bg1);
+}
+
+/* hover effect for FAQ questions */
+.accordion-button:hover {
+    background-color: var(--white); */ changed background color on hover */
+
+    color: var(--bg1); /* changed text color on hover */
+}
+
+/* Adjust accordion icon */
+.accordion-button::after {
+    font-family: "font awesome 5 free";
+    content: ""; /* plus icon */
+    float:right;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button [aria-expanded ="true"]::after {
+    content: ""; /* Minus icon */
+}
+
+/*footer */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
+#footer {
+    background-color:lightslategray;
+}
